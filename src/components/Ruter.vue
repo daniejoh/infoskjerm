@@ -26,7 +26,7 @@ export default {
         const res = await axios.post(
           'https://api.entur.io/journey-planner/v2/graphql', {
           query: `{ 
-              stopPlace(id:"NSR:StopPlace:59894"){ 
+              stopPlace(id:"NSR:StopPlace:59600"){ 
                 id 
                 name
                 estimatedCalls(timeRange: 72100, numberOfDepartures: 10){
